@@ -255,4 +255,48 @@ li::before{
 /* notes part ends  */
 
 
+/* brain section starts  */
+.second-brain-section{
+    padding: 120px;
+    display: flex;
+    
+}
+
+.brain-desc{
+    padding: 102px 60px;
+}
+
+.solution span{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #30B868;
+   
+}
+
+.solution h1{
+    font-style: bold;
+    font-size: 48px;
+    font-weight: 700px;
+    line-height: 58px;
+    padding: 30px 0 0 0;
+}
+
+.solution p{
+    color: #627382;
+    font-weight: 400px;
+    line-height: 20px;
+    padding-top: 10px;
+}
+
+.features{
+    position: relative;
+    padding-top: 40px;
+
+}
+
+
+/* brain section ends  */
+
+
 /* main ends  */
