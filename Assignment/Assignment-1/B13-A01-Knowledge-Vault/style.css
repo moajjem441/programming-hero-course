@@ -1,0 +1,258 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1600px;
+    margin: 0 auto;
+     background-color:#FFFFFF;
+     font-family: "Inter", sans-serif;
+}
+
+.btn{
+    background-color: #30B868;
+    padding: 12px 16px;
+    color: rgba(255, 255, 255, 1);
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 19px;
+    text-transform: capitalize;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn:hover{
+   background-color: rgb(64, 104, 5);
+   border-radius: 9px;
+}
+
+/* header start */
+
+.navbar{
+    background-color:#FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 120px;
+    align-items: center;
+}
+
+.logo{
+    height: 60px;
+    width: 139px;
+}
+
+
+.some-title{
+    color:#000000 ;
+    
+}
+
+.some-title li{
+    list-style: none;
+     
+}
+
+.some-title ul{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+   gap: 32px;
+}
+
+
+/* header end  */
+
+
+
+/* main starts */
+
+
+/* banner part start  */
+
+.banner-container {
+    max-width: 1600px;
+    background-image: url(./assets/hero-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+     gap: 16px;
+       text-align: center;
+    
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 154px 346px;
+   
+}
+
+
+
+
+.access{
+    margin: 0 auto;
+    max-width: 234px;
+    height: 38px;
+    border: 1px solid black;
+    border-radius: 40px;
+    text-align: center;
+    padding:8px 12px 8px 34px;
+    color:#469165;
+     font-family: "Inter", sans-serif;
+    font-weight: 600;
+    background-color: #FFFFFF;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    
+   
+}
+
+
+
+.access li{
+    position: relative;
+
+}
+
+li::before{
+    content: " ";
+    position: absolute;
+    left: -15px;
+    top: 20%;
+    transform: translate(-50%);
+    width: 15px;
+    height:15px;
+    border-radius: 50%;
+    background: radial-gradient(circle,rgba(2, 2, 2, 0.164),rgba(70, 145, 101, 1),rgb(155, 185, 155));
+}
+
+
+
+.first-line{
+   font-family: "Inter", sans-serif;
+    font-style: bold;
+    font-size: 72px;
+    font-weight: 700px;
+    row-gap: 84px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.second-line{
+     font-family: "Inter", sans-serif;
+    font-style: bold;
+    font-size: 72px;
+    font-weight: 700px;
+    row-gap: 84px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #30B868;
+}
+
+.simple-desc p{
+    color: #FFFFFF;
+    line-height: 24px;
+    margin: 16px 0;
+}
+
+.button-div{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    position: relative;
+  
+    
+}
+
+.button-div img{
+    position: absolute;
+    left: 48%;
+    top: 30%;
+    
+}
+
+
+
+
+/* banner part ends  */
+
+
+
+/* notes part start  */
+.notes-container{
+    max-width: 1600px;
+    display: flex;
+}
+.notes-details{
+    margin:0 auto;
+}
+
+
+
+.notes-desc{
+   font-family: "Inter", sans-serif;
+   text-align: center;
+   padding: 35px 0;
+   
+}
+
+.notes-desc p{
+    line-height: 16px;
+    padding: 16px;
+    color: #627382;
+}
+
+.notes-card{
+    display: flex;
+    
+    margin: 0 auto;
+}
+
+.card{
+    
+    width: 322px;
+    height: 300px;
+    gap: 16px;
+    padding: 24px;
+    text-align: center;
+   margin-right: 30px;
+   
+   border-radius: 8px;
+   box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.096);
+   background: rgba(255, 255, 255, 1);
+  
+   
+
+}
+
+
+.card .image{
+    background-color: #F95555;
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 69px auto 0 auto;
+    
+}
+
+.card h2{
+    padding: 16px;
+}
+
+.card p{
+    color: #627382;
+}
+
+
+/* notes part ends  */
+
+
+/* main ends  */
