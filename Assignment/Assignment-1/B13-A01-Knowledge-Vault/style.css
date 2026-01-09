@@ -159,21 +159,22 @@ li::before{
     margin: 16px 0;
 }
 
+
 .button-div{
     display: flex;
-    justify-content: center;
     gap: 16px;
-    position: relative;
-  
+    justify-content: center;
+    align-items: center;
+}
+
+
+.button-div #left-button{
+    display: flex;
+    flex-direction: row;
+    
     
 }
 
-.button-div img{
-    position: absolute;
-    left: 48%;
-    top: 30%;
-    
-}
 
 
 
@@ -292,11 +293,72 @@ li::before{
 .features{
     position: relative;
     padding-top: 40px;
+    font-weight: 500px;
+    line-height: 20px;
+    color: #000000;
 
 }
 
 
 /* brain section ends  */
 
+
+
+/* Early Access part  start */
+.early-access-section{
+    padding: 0 120px 120px 120px;
+    text-align: center;
+}
+
+.early-access-desc{
+    background-color: #F7F6F2;
+    padding: 80px 40px;
+
+}
+
+.early-access-desc .desc-part h1{
+    padding: 16px 0;
+     font-style: bold;
+    font-size: 40px;
+    font-weight: 700px;
+    line-height: 48px;
+    color: #000000;
+
+}
+
+.early-access-desc .desc-part, p{
+    padding-bottom: 16px;
+     font-style: bold;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 24px;
+    color: #627382;
+
+}
+
+
+.early-access-desc .button-part button{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+  
+   
+}
+
+
+.early-access-desc .button-part p{
+   padding-top: 16px;
+     font-style: bold;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 24px;
+    color: #627382;
+}
+
+
+
+
+
+/* Early Access part ends  */
 
 /* main ends  */
